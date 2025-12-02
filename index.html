@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./birthday.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hearts-container"></div>
+    <div class="mobile">
+        <div>
+
+            <div class="pad">
+                <h1 class="h1">
+                    HAPPY 25th BIRTHDAY DEAR VISHAL
+                </h1>
+            </div>
+
+            <p class="para1">
+                Happy Birthday, my love!
+                Today is all about celebrating you — the person who makes my world brighter, my days happier, and my
+                heart fuller.
+            </p>
+
+            <p class="para1">
+                Thank you for loving me the way you do, and the warmth you bring into my life.
+            </p>
+
+            <p class="para1">
+                I’m so grateful that I get to walk this journey with you.
+                I hope this year brings you endless joy, success, and everything your heart wishes for.
+            </p>
+
+            <p class="para1">
+                You deserve the best, and I’ll always be here cheering for you, loving you, and holding your hand.
+                I love you more than words can ever say.
+                Happy Birthday, my forever person ❤️🎂✨
+            </p>
+
+        </div>
+
+        <div>
+            <h1 class="h1">
+                Chapters of Us
+            </h1>
+            <div>
+                <h2 class="h2">
+                    Our Adventures Together
+                </h2>
+                <p class="para1">
+                    Our travels are not just trips —
+                    they are chapters of our story.
+                </p>
+                <div class="flex">
+                    <img src="./IMG_20251021_122434.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG_20251112_124028.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20240617-WA0008.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG_20251112_133848.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20240723-WA0034.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20240723-WA0042.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20250224-WA0098.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20250404-WA0046.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20250503-WA0029.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20250509-WA0110.jpg" alt="" height="150px" width="150px">
+                    <img src="./Screenshot_2025-02-24-17-29-48-76.jpg" alt="" height="150px" width="150px">
+                    <img src="./Screenshot_2025-02-24-17-30-59-79.jpg" alt="" height="150px" width="150px">
+                </div>
+            </div>
+
+
+            <div>
+                <h2 class="h3">
+                    Eating Together
+                </h2>
+                <p class="para1">
+                    "Together at the table, memories are made."
+                </p>
+                <div class="flex">
+                    <img src="./IMG_20251108_165107.jpg" alt="" height="150px" width="150px">
+                    <img src="./Snapchat-875176277.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG20250130144401.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG_20251108_154756.jpg" alt="" height="150px" width="150px">
+
+                </div>
+
+            </div>
+
+            <div>
+                <h2 class="h3">
+                    Happy Moments
+                </h2>
+                <p class="para1">
+                    “Gifts don’t have to be big to make hearts full.”
+                </p>
+                <div class="flex">
+                    <img src="./Snapchat-1923825865.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG20241015203224.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG20250130144406.jpg" alt="" height="150px" width="150px">
+                    <img src="./Snapchat-1357017501.jpg" alt="" height="150px" width="150px">
+
+                </div>
+
+            </div>
+
+            <div>
+                <h2 class="h3">
+                    Closer moments with you
+                </h2>
+                <p class="para1">
+                    “It’s not about the time we spent, but the moments that make us feel connected.”
+                </p>
+                <div class="flex">
+                    <img src="./IMG_20251023_153009.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG_20251104_155358.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20250303-WA0010.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20250406-WA0070.jpg" alt="" height="150px" width="150px">
+
+                </div>
+
+            </div>
+
+            <div>
+                <h2 class="h3">
+                    Library
+                </h2>
+                <p class="para1">
+                    “Lost in a library with you”
+                </p>
+                <div class="flex">
+                    <img src="./IMG-20240527-WA0004.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG-20240528-WA0035.jpg" alt="" height="150px" width="150px">
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="gift-container">
+            <p class="tap-text">Tap Gift box 🎁</p>
+
+            <div class="gift-box" onclick="openGift()">
+                <img src="./realistic-vector-icon-illustration-white-gift-box-with-red-silky-ribbon-bow-present-box-isolate.png" class="gift-img" alt="gift">
+            </div>
+
+            <p id="popup-msg" class="popup-msg">🎉 Happy Birthday My Love! ❤️</p>
+        </div>
+
+        <div class="flex2">
+            <p>Yours Lovely,</p>
+            <p>Jeba</p>
+        </div>
+
+    </div>
+    <script>
+function openGift() {
+    document.querySelector('.gift-img').classList.add('open');
+    document.getElementById('popup-msg').style.display = "block";
+}
+</script>
+<script>
+function createHeart() {
+    const container = document.querySelector('.hearts-container');
+    const heart = document.createElement('div');
+    heart.classList.add('heart');
+    heart.innerHTML = "❤";
+
+    // Random position and size
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (20 + Math.random() * 20) + "px";
+
+    container.appendChild(heart);
+
+    // Remove after animation
+    setTimeout(() => {
+        heart.remove();
+    }, 5000);
+}
+
+// Create hearts every 500ms
+setInterval(createHeart, 600);
+</script>
+
+
+
+</body>
+
+</html>
