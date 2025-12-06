@@ -100,6 +100,8 @@
                     <img src="./IMG20241015203224.jpg" alt="" height="150px" width="150px">
                     <img src="./IMG20250130144406.jpg" alt="" height="150px" width="150px">
                     <img src="./Snapchat-1357017501.jpg" alt="" height="150px" width="150px">
+                    <img src="./IMG20250306204006.jpg" alt="" height="150px" width="150px">
+
 
                 </div>
 
@@ -138,13 +140,43 @@
 
             </div>
 
+            <div>
+                <h2 class="h3">
+                    Dream
+                </h2>
+                <p class="para1">
+                    “All I truly wish for is to see you succeed in life and for us to get married soon.”
+                </p>
+                <div class="flex">
+                    <img src="./wedding.jpg" alt="" height="400px" width="320px">
+
+
+
+                </div>
+
+            </div>
+
+            <div>
+                <h2 class="h3">
+                    Video note
+                </h2>
+                <div
+                    style="display: flex;justify-content: center;padding: 30px 0; background-color: rgb(139, 140, 147); margin-top: 20px;">
+                    <video width="320" controls>
+                        <source src="video_20251206_103318.mp4" type="video/mp4">
+                        
+                    </video>
+                </div>
+            </div>
+
 
         </div>
         <div class="gift-container">
             <p class="tap-text">Tap Gift box 🎁</p>
 
             <div class="gift-box" onclick="openGift()">
-                <img src="./realistic-vector-icon-illustration-white-gift-box-with-red-silky-ribbon-bow-present-box-isolate.png" class="gift-img" alt="gift">
+                <img src="./realistic-vector-icon-illustration-white-gift-box-with-red-silky-ribbon-bow-present-box-isolate.png"
+                    class="gift-img" alt="gift">
             </div>
 
             <p id="popup-msg" class="popup-msg">🎉 Happy Birthday My Love! ❤️</p>
@@ -157,33 +189,33 @@
 
     </div>
     <script>
-function openGift() {
-    document.querySelector('.gift-img').classList.add('open');
-    document.getElementById('popup-msg').style.display = "block";
-}
-</script>
-<script>
-function createHeart() {
-    const container = document.querySelector('.hearts-container');
-    const heart = document.createElement('div');
-    heart.classList.add('heart');
-    heart.innerHTML = "❤";
+        function openGift() {
+            document.querySelector('.gift-img').classList.add('open');
+            document.getElementById('popup-msg').style.display = "block";
+        }
+    </script>
+    <script>
+        function createHeart() {
+            const container = document.querySelector('.hearts-container');
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.innerHTML = "❤";
 
-    // Random position and size
-    heart.style.left = Math.random() * 100 + "vw";
-    heart.style.fontSize = (20 + Math.random() * 20) + "px";
+            // Random position and size
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.fontSize = (20 + Math.random() * 20) + "px";
 
-    container.appendChild(heart);
+            container.appendChild(heart);
 
-    // Remove after animation
-    setTimeout(() => {
-        heart.remove();
-    }, 5000);
-}
+            // Remove after animation
+            setTimeout(() => {
+                heart.remove();
+            }, 5000);
+        }
 
-// Create hearts every 500ms
-setInterval(createHeart, 600);
-</script>
+        // Create hearts every 500ms
+        setInterval(createHeart, 600);
+    </script>
 
 
 
