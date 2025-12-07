@@ -25,6 +25,12 @@
     padding: 25px 0;
 
 }
+.h11{
+    text-align: center;
+    color: rgb(38, 38, 107);
+   padding-bottom: 25px;
+
+}
 .para1{
    
     display: flex;
@@ -142,5 +148,8 @@
    font-size: 20px;
    gap: 10px;
    color: #d81b60;
+}
+.img{
+    padding: 0 !important;
 }
 
